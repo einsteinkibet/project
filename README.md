@@ -13,7 +13,7 @@ The Recipe App is a web application that allows users to discover, create, and s
 - Contact Form: The app includes a contact form that enables users to get in touch with the app's administrators. Users can enter their name, email address, and a message to send inquiries, feedback, or any other communication related to the app.
 
 ## Author
-CHEPKOECH FAITH
+EINSTEN KIBET
 
 ## Technologies Used
 - #### HTML (Hypertext Markup Language):
@@ -40,16 +40,6 @@ db.json is a JSON (JavaScript Object Notation) file that serves as a simple data
 It stores structured data, such as recipes, in a JSON format with properties and values.
 The JavaScript code in the app can read, modify, and update the data in db.json using fetch requests or other appropriate techniques.
 This allows the app to retrieve recipe data, add new recipes, update existing recipes, and perform other CRUD (Create, Read, Update, Delete) operations on the data.
-## Installation
-
-1. Clone the repository:
-
-   git clone git@github.com:fay-simotwo/Online-recipes.git
-
-2. Navigate to the project directory:
-cd Movie-shop
-
-3. Open the `index.html` file in your web browser.
 
 ## Usage
 
@@ -68,13 +58,11 @@ cd Movie-shop
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
 #### You can reach me on :
-- Email: chepfaith18@gmail.com
-- Mattermost: @chepkoech.faith
-- Linkedin: @faith-chepkoech
+- Email: einsteinkibet0110@gmail.com
+- Linkedin: @einstteinkibet
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-# project
 # project
