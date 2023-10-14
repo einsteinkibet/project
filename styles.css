@@ -14,14 +14,14 @@ html{
     width: 100%;
     z-index: 999;
     background-color: #d58813;
-    padding: 20px;
+    padding: 10px;
   }
   
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 100px;
   }
   nav li{
     list-style: none;
@@ -60,7 +60,7 @@ html{
     color: whitesmoke;
     float: right;
   }
-  .par{
+  /* .par{
     text-align: center;
     background-color: #141415;
     color: whitesmoke;
@@ -78,7 +78,7 @@ html{
     font-size: 24px;
   }
   
-  /* @keyframes par {
+  @keyframes par {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
   } */
@@ -120,35 +120,10 @@ html{
     font-weight: 600;
     margin-bottom: 220px;
   }
-  .heros-btn{
-    border-radius: 5px;
-    width: 250px;
-    height: 50px;
-    color: #202030;
-    font-weight: 900;
-    font-size: 30px;
-    background-color: #d58813;
-    margin-top: -400px;
-    position: relative;
-    cursor: pointer;
-  }
-  .heros-btn1{
-    border-radius: 5px;
-    width: 100px;
-    height: 50px;
-    color: #202030;
-    font-weight: 900;
-    font-size: 30px;
-    background-color: #d58813;
-    list-style: none;
-    cursor: pointer;
-    text-decoration: none;
-  }
-
 
 #featured-recipes {
     text-align: center;
-    padding: 50px 0;
+    padding: 0px 0;
   }
   
   #featured-recipes h2 {
@@ -185,7 +160,6 @@ html{
   
 
 footer {
-    background-color: #d58813;
     padding: 20px;
     text-align: center;
     color: #ffffff;
@@ -229,7 +203,7 @@ footer {
   
   textarea {
     resize: vertical;
-  }
+    }
   
   button[type="submit"] {
     background-color: #333;
@@ -552,6 +526,7 @@ footer {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      border-style: dashed;
     }
     
     .added-recipe-card {
@@ -639,4 +614,4 @@ footer {
   .recipe-card p {
     margin-top: 10px;
   }
-  
+   

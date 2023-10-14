@@ -24,6 +24,7 @@
           <li><a href="#recipes">Recipes</a></li>
           <li><a href="#contact-form">Contact</a></li>
         </ul>
+      </nav>
     </header>
     <main>
       <section class="hero">
@@ -37,7 +38,7 @@
         <h2>Featured Recipes</h2>
         <div class="recipe-card">
           <img src="https://www.themealdb.com/images/media/meals/urzj1d1587670726.jpg" alt="Recipe 1">
-          <h3>Big Mac</h3>
+          <h3 class = "name">Big Mac</h3>
         </div>
         <div class="recipe-card">
           <img src="https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg" alt="Recipe 2">
@@ -72,6 +73,53 @@
           <h3>Tortang Talong</h3>
         </div>
       </section>
+      <section id="recipes">
+            <div class = "container">
+              <div class = "meal-wrapper">
+                <div class = "meal-search">
+                  <h2 class = "title">Hey.. Type A Dish Name Here</h2>
+                  
+                  <div class = "meal-search-box">
+                    <input type = "text" class = "search-control" placeholder="Enter A Dish Name" id = "search-input">
+                    <button type = "submit" class = "search-btn btn" id = "search-btn">
+                      Search
+                    </button>
+                  </div>
+                </div>
+          
+                <div class = "meal-result">
+                  <h2 class = "title">Your Search Results:</h2>
+                  <div id= "meal">
+                  </div>
+                </div>
+          
+          
+                <div class = "meal-details">
+                  <!-- recipe close btn -->
+                  <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+                    <i class = "fas fa-times"></i>
+                  </button>
+          
+                  <!-- meal content -->
+                  <div class = "meal-details-content">
+                    <h2 class = "recipe-title">Meals Name Here</h2>
+                    <p class = "recipe-category">Category Name</p>
+                    <div class = "recipe-instruct">
+                      <h3>Instructions:</h3>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+                    </div>
+                    <div class = "recipe-meal-img">
+                      <img src = "food.jpg" alt = "">
+                    </div>
+                    <div class = "recipe-link">
+                      <a href = "#" target = "_blank">Watch Video</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
       <section id="composepg">
         <h2>COMPOSE RECIPE</h2>
         <form id="recipe-form">
@@ -119,54 +167,7 @@
               </form>
             </section>
           </section>
-        </div>
-        <section id="recipes">
-            <div class = "container">
-              <div class = "meal-wrapper">
-                <div class = "meal-search">
-                  <h2 class = "title">Hey.. Type A Dish Name Here</h2>
-                  
-                  <div class = "meal-search-box">
-                    <input type = "text" class = "search-control" placeholder="Enter A Dish Name" id = "search-input">
-                    <button type = "submit" class = "search-btn btn" id = "search-btn">
-                      Search
-                    </button>
-                  </div>
-                </div>
-          
-                <div class = "meal-result">
-                  <h2 class = "title">Your Search Results:</h2>
-                  <div id= "meal">
-                  </div>
-                </div>
-          
-          
-                <div class = "meal-details">
-                  <!-- recipe close btn -->
-                  <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
-                    <i class = "fas fa-times"></i>
-                  </button>
-          
-                  <!-- meal content -->
-                  <div class = "meal-details-content">
-                    <h2 class = "recipe-title">Meals Name Here</h2>
-                    <p class = "recipe-category">Category Name</p>
-                    <div class = "recipe-instruct">
-                      <h3>Instructions:</h3>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
-                    </div>
-                    <div class = "recipe-meal-img">
-                      <img src = "food.jpg" alt = "">
-                    </div>
-                    <div class = "recipe-link">
-                      <a href = "#" target = "_blank">Watch Video</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </section>   
+        </div>   
             <footer>
               <div class="footercont">
                 <div class="social-media">
